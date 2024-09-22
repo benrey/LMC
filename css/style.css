@@ -113,17 +113,17 @@
     font-style: normal;
 }
 :root {
-    --coreGrey: #686868;
-    --coreLtGrey: #828282;
-    --chalk: #d6d6d6;
+    --coreGrey: #e46748;
+    --coreLtGrey: #f9896d;
+    --chalk: #fec5b7;
     --pure: #fff;
-    --highLtRed: #d9584f;
-    --highRed: #bb554e;
-    --coreRed: #a23425;
-    --maroon: #8a1919;
-    --redBtn: #eb0505;
-    --greyCardBG: #485353;
-    --dkGrey: #222222;
+    --highLtRed: #ec5e3a;
+    --highRed: #055216;
+    --coreRed: #ee613e;
+    --maroon: #0a0908;
+    --redBtn: #5ec674;
+    --greyCardBG: #fec5b7;
+    --dkGrey: #e46748;
   }
 
 *,
@@ -337,7 +337,7 @@ table {
 caption {
     padding-top: 0;
     padding-bottom: 0;
-    color: #454545;
+    color: #fec5b7;
     text-align: left;
     caption-side: bottom;
 }
@@ -2315,7 +2315,7 @@ body.scrolled #site-header .logo.dark {
 
     body.searching #site-header nav a,
     body.scrolled #site-header nav a {
-        color: #454545;
+        color: #fec5b7;
     }
 }
 
@@ -2323,7 +2323,7 @@ body.searching #site-header nav svg line,
 body.scrolled #site-header nav svg line,
 body.searching #site-header nav svg circle,
 body.scrolled #site-header nav svg circle {
-    stroke: #454545;
+    stroke: #fec5b7;
 }
 
 #site-header img {
@@ -2361,7 +2361,7 @@ body.scrolled #site-header nav svg circle {
     position: absolute;
     height: 2px;
     width: 100%;
-    background: #454545;
+    background: #fec5b7;
     border-radius: 1px;
     opacity: 1;
     left: 0;
@@ -2430,7 +2430,7 @@ body.scrolled #site-header nav svg circle {
     right: 0;
     line-height: 15px;
     padding: 48px 30px 30px;
-    background: #454545;
+    background: #fec5b7;
 }
 
 @media (min-width:768px) {
@@ -2530,7 +2530,7 @@ body.scrolled #site-header nav svg circle {
 
 @media (min-width:768px) {
     #site-header nav a {
-        color: #454545;
+        color: #fec5b7;
     }
 }
 
@@ -2597,15 +2597,15 @@ body.scrolled #site-header nav svg circle {
 }
 
 #site-header #site-search form.mobile input.text::-moz-placeholder {
-    color: #676767;
+    color: #fec5b7;
 }
 
 #site-header #site-search form.mobile input.text:-ms-input-placeholder {
-    color: #676767;
+    color: #fec5b7;
 }
 
 #site-header #site-search form.mobile input.text::-webkit-input-placeholder {
-    color: #676767;
+    color: #fec5b7;
 }
 
 #site-header #site-search form.mobile button {
@@ -2771,7 +2771,7 @@ body.scrolled #site-header nav svg circle {
 }
 
 body.scrolled #site-header.light #nav-toggle span {
-    background: #454545;
+    background: #fec5b7;
 }
 
 body.single-work #site-header.light nav li.nav-item-16 a:after {
@@ -2780,7 +2780,7 @@ body.single-work #site-header.light nav li.nav-item-16 a:after {
 
 @media (min-width:768px) {
     body.single-work.scrolled #site-header.light nav li.nav-item-16 a:after {
-        background: #454545;
+        background: #fec5b7;
     }
 }
 
@@ -2866,7 +2866,7 @@ body.single-work #site-header.light nav li.nav-item-16 a:after {
 #site-footer .copyright img {
     height: 29px;
     width: 29px;
-    filter: invert(50%) sepia(87%) saturate(3681%) hue-rotate(335deg) brightness(96%) contrast(75%);
+    /*filter: invert(50%) sepia(87%) saturate(3681%) hue-rotate(335deg) brightness(96%) contrast(75%);*/
 }
 
 @media (min-width:768px) {
@@ -3927,7 +3927,7 @@ body .project-video.playing .mejs-controls {
     font-family: "harriet-display", Helvetica, serif;
     font-size: 16px;
     line-height: 28px;
-    color: #454545;
+    color: #fec5b7;
 }
 
 .project-thumb .label:before {
@@ -3990,7 +3990,7 @@ body .project-video.playing .mejs-controls {
     font-size: 13px;
     line-height: 20px;
     font-weight: 300;
-    color: #676767;
+    color: #fec5b7;
 }
 .project-thumb .label li {
     font-size: 14px;
@@ -4403,12 +4403,12 @@ body .project-video.playing .mejs-controls {
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
-    color: #454545;
+    color: #fec5b7;
 }
 
 .project-thumb-full .infocol h2 a {
     position: relative;
-    color: #454545;
+    color: #fec5b7;
 }
 
 .project-thumb-full .infocol h2 a:after {
@@ -4442,7 +4442,7 @@ body .project-video.playing .mejs-controls {
     font-size: 13px;
     line-height: 20px;
     font-weight: 300;
-    color: #676767;
+    color: #fec5b7;
 }
 
 .project-thumb-full .infocol p {
@@ -4451,7 +4451,7 @@ body .project-video.playing .mejs-controls {
     line-height: 26px;
     font-weight: 300;
     letter-spacing: 0.2px;
-    color: #454545;
+    color: #fec5b7;
 }
 
 @media (min-width:1024px) {
@@ -4773,7 +4773,7 @@ body.search #search-page .project-thumb.label-bottom .bottom {
     font-family: "harriet-display", Helvetica, serif;
     font-size: 18px;
     line-height: 26px;
-    color: #454545;
+    color: #fec5b7;
     letter-spacing: 0.15px;
 }
 
@@ -4821,7 +4821,7 @@ body.search #search-page .project-thumb.label-bottom .bottom {
     font-size: 13px;
     line-height: 20px;
     font-weight: 300;
-    color: #676767;
+    color: #fec5b7;
 }
 
 .post-thumb .label p {
@@ -4830,7 +4830,7 @@ body.search #search-page .project-thumb.label-bottom .bottom {
     font-size: 13px;
     line-height: 20px;
     font-weight: 300;
-    color: #676767;
+    color: #fec5b7;
 }
 
 @media (min-width:768px) {
@@ -5031,7 +5031,7 @@ body.search #search-page .project-thumb.label-bottom .bottom {
     font-family: "harriet-display", Helvetica, serif;
     font-size: 18px;
     line-height: 28px;
-    color: #454545;
+    color: #fec5b7;
 }
 
 @media (min-width:768px) {
@@ -5109,7 +5109,7 @@ body.search #search-page .project-thumb.label-bottom .bottom {
     font-size: 13px;
     line-height: 20px;
     font-weight: 300;
-    color: #676767;
+    color: #fec5b7;
 }
 
 @media (min-width:768px) {
@@ -5436,7 +5436,7 @@ body.search #search-page .project-thumb.label-bottom .bottom {
     font-size: 13px;
     line-height: 20px;
     font-weight: 300;
-    color: #676767;
+    color: #fec5b7;
 }
 
 @media (min-width:768px) {
@@ -5912,7 +5912,7 @@ form#contact .form-button input[disabled] {
     line-height: 22px;
     font-weight: 300;
     font-family: "harriet-display", Helvetica, serif;
-    color: #676767;
+    color: #fec5b7;
 }
 
 @media (min-width:1200px) {
@@ -6723,7 +6723,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     padding: 12px 20px;
     font-size: 15px;
     line-height: 20px;
-    color: #454545;
+    color: #fec5b7;
 }
 
 #work-filters .filters ul li.capabilities.focus svg {
@@ -8337,7 +8337,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-    color: #454545;
+    color: #fec5b7;
 }
 
 .block-capabilities-services .g-container.results .intro p a:after,
@@ -8352,7 +8352,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     left: 0;
     right: 0;
     height: 1px;
-    background-color: #454545;
+    background-color: #fec5b7;
 }
 
 .block-capabilities-services .g-container.results .intro p a:hover,
@@ -8427,7 +8427,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-    color: #454545;
+    color: #fec5b7;
 }
 
 .block-capabilities-services .g-container.results .more a:after,
@@ -8442,7 +8442,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     left: 0;
     right: 0;
     height: 1px;
-    background-color: #454545;
+    background-color: #fec5b7;
 }
 
 .block-capabilities-services .g-container.results .more a:hover,
@@ -10575,7 +10575,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
 .block-team-grid .team-member .img {
     height: 0;
     padding-top: 90%;
-    background-color: #676767;
+    background-color: #fec5b7;
     border-radius: 12px;
     overflow: hidden;
     background-position: center center !important;
@@ -12101,7 +12101,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
 @media (min-width:768px) {
     .block-contact-tabs .tabs li.active span {
         background: transparent;
-        color: #454545;
+        color: #fec5b7;
     }
 }
 
@@ -12363,7 +12363,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
 
 .block-contact-tabs .table .news a {
     position: relative;
-    color: #454545;
+    color: #fec5b7;
 }
 
 .block-contact-tabs .table .news a:after {
@@ -12377,7 +12377,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     left: 0;
     right: 0;
     height: 1px;
-    background: #454545;
+    background: #fec5b7;
 }
 
 .block-contact-tabs .table .news a:hover,
@@ -12791,7 +12791,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     line-height: 26px;
     font-weight: 300;
     letter-spacing: 0.2px;
-    color: #454545;
+    color: #fec5b7;
 }
 
 @media (min-width:1024px) {
@@ -12811,7 +12811,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     left: 0;
     right: 0;
     height: 1px;
-    background: #454545;
+    background: #fec5b7;
 }
 
 .block-contact-content a.phone:hover,
@@ -13853,7 +13853,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     font-size: 18px;
     line-height: 28px;
     font-weight: 300;
-    color: #454545;
+    color: #fec5b7;
 }
 
 @media (min-width:768px) {
@@ -14179,7 +14179,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     font-size: 15px;
     line-height: 24px;
     font-weight: 300;
-    color: #454545;
+    color: #fec5b7;
 }
 
 @media (min-width:768px) {
@@ -14620,7 +14620,7 @@ body.single-capability #contactSuccess .g-col-offset-1 {
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
-    color: #676767;
+    color: #fec5b7;
 }
 
 @media (min-width:768px) {
@@ -14919,7 +14919,7 @@ body.archive main {
     padding: 12px 20px;
     font-size: 15px;
     line-height: 20px;
-    color: #454545;
+    color: #fec5b7;
 }
 
 .blog-posts .filters ul li.categories.focus svg {
@@ -15073,7 +15073,7 @@ body.single-post main {
     line-height: 28px;
     font-weight: 300;
     letter-spacing: 0px;
-    color: #454545;
+    color: #fec5b7;
 }
 
 #blog-content .content blockquote.quote {
@@ -15688,7 +15688,7 @@ body.single-post main {
     line-height: 22px;
     font-weight: 300;
     text-align: left;
-    color: #676767;
+    color: #fec5b7;
 }
 
 @media (min-width:768px) {
@@ -16002,7 +16002,7 @@ body.search .pagination .wp-paginate .prev path {
     line-height: 26px;
     font-weight: 300;
     letter-spacing: 0.2px;
-    color: #454545;
+    color: #fec5b7;
 }
 
 @media (min-width:1024px) {
@@ -16022,7 +16022,7 @@ body.search .pagination .wp-paginate .prev path {
     left: 0;
     right: 0;
     height: 1px;
-    background: #454545;
+    background: #fec5b7;
 }
 
 .page-template-page-legal #legal-header p a:hover,
@@ -16079,7 +16079,7 @@ body.search .pagination .wp-paginate .prev path {
     line-height: 26px;
     font-weight: 300;
     letter-spacing: 0.2px;
-    color: #454545;
+    color: #fec5b7;
 }
 
 @media (min-width:1024px) {
@@ -16099,7 +16099,7 @@ body.search .pagination .wp-paginate .prev path {
     left: 0;
     right: 0;
     height: 1px;
-    background: #454545;
+    background: #fec5b7;
 }
 
 .error404 #default-header p a:hover,
